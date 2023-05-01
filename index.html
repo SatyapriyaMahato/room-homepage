@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/styles.css">
   <title>Frontend Mentor | Room homepage</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,18 +15,80 @@
   </style>
 </head>
 <body>
-  Home
-  Shop
-  About
-  Contact
 
-  Discover innovative ways to decorate
+  <!-- Main Section -->
 
-  We provide unmatched quality, comfort, and style for property owners across the country. 
-  Our experts combine form and function in bringing your vision to life. Create a room in your 
-  own style with our collection and make your property a reflection of you and what you love.
+    <main>
+      <section class="container section-hero ">
+        <div class="hero-top">
+          <div class="hero-left">
+            <nav class="navbar">
+              <a href="#" class="nav-logo">room</a>
+              <ul class="nav-menu">
+                  <li class="nav-item">
+                      <a href="#" class="nav-link">home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#" class="nav-link">shop</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#" class="nav-link">about</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#" class="nav-link">contact</a>
+                  </li>
+              </ul>
+              <div class="hamburger">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+              </div>
+            </nav>
+          </div>
+          <div class="hero-right">
+            <div class="section-hero-text">
+              <h1 class="hero-heading">Discover innovative ways to decorate</h1>
+              <p class="hero-para">We provide unmatched quality, comfort, and style for property owners across the country. 
+                Our experts combine form and function in bringing your vision to life. Create a room in your 
+                own style with our collection and make your property a reflection of you and what you love.</p>
+              <div class="shop-now-btn">
+                <a class="shop-now-link" href="#">SHOP NOW <span><svg width="40" height="12" xmlns="http://www.w3.org/2000/svg"><path d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z" fill="#000" fill-rule="nonzero"/></svg></span></a>
+              </div>
+            </div>
+            <div class="hero-arrow-btn">
+              <button class="btn">
+                <svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13 0L1 12l12 12" stroke="#FFF" fill="none" fill-rule="evenodd"/></svg>
+              </button>
+              <button class="btn">
+                <svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M1 0l12 12L1 24" stroke="#FFF" fill="none" fill-rule="evenodd"/></svg>
+              </button>
+            </div>
+          </div> 
+        </div>
+        <div class="hero-bottom">
+          <div class="div1">
+            <img src="images/image-about-dark.jpg" alt="">
+          </div>
+          <div class="div2">
+            <h2 class="about-furniture-heading">ABOUT OUR FURNINTURE</h2>
+            <p>
+              Our multifunctional collection blends design and function to suit your individual taste.
+              Make each room unique, or pick a cohesive theme that best express your interests and what
+              inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+              or anything in between. Product specialists are available to help you create your dream space.</p>
 
-  Shop now
+          </div>
+          <div class="div3">
+            <img src="images//image-about-light.jpg" alt="">
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+
+
+  <!-- 
 
   We are available all across the globe
 
@@ -43,17 +105,11 @@
   experience in this industry, we understand what customers want for their home and office.
 
   Shop now
-
-  About our furniture
-
-  Our multifunctional collection blends design and function to suit your individual taste.
-  Make each room unique, or pick a cohesive theme that best express your interests and what
-  inspires you. Find the furniture pieces you need, from traditional to contemporary styles
-  or anything in between. Product specialists are available to help you create your dream space.
+   -->
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
+<footer class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="https://github.com/SatyapriyaMahato">Satyapriya Mahato</a>.
+</footer>
 </html>
