@@ -140,9 +140,8 @@ img{
     width: 60%;
     padding: 0;
     margin: 0;
-    background: url("../images/desktop-image-hero-1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
+
 }
 .hero-right{
     width: 40%;
@@ -150,7 +149,7 @@ img{
 }
 
 .section-hero-text{
-    padding: 6rem;
+    padding: 6em 6em 10em 6em;
 }
 
 .hero-para{
@@ -158,8 +157,8 @@ img{
     
 }
 .shop-now-link{
-    word-spacing: 0.4em;
-    letter-spacing: .6em;
+    word-spacing: 0.3em;
+    letter-spacing: 0.5em;
     font-size: 1rem;
     color: rgb(0, 0, 0);
 }
@@ -168,12 +167,13 @@ img{
 }
 
 .hero-arrow-btn{
+    position: absolute;
+    bottom: 0;
     height: 80px;
     display: inline-flex;
 }
 .btn{
-    width: 78px;
-    padding: 20px;
+    width: 75px;
     margin: 0;
     background-color: #101010;
     border: 0;
@@ -217,7 +217,7 @@ img{
 
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -243,6 +243,8 @@ img{
     .hamburger {
         display: block;
         cursor: pointer;
+        margin-right: 3em;
+
     }
   .hamburger.active .bar:nth-child(2) {
         opacity: 0;
@@ -254,6 +256,25 @@ img{
 
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    .hero-top{
+        flex-direction: column;
+    }
+    .hero-left{
+        width: 100%;
+    }
+    .hero-arrow-btn{
+        right: 0;
+    }
+    .hero-right{
+        width: 100%;
+    }
+    .hero-bottom{
+        flex-direction: column;
+    }
+    .div1, .div2, .div3{
+        width: 100%;
     }
   
 
