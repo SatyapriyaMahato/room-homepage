@@ -219,7 +219,7 @@ img{
     .nav-menu {
         position: fixed;
         top: -100%;
-        padding: 4em 4em 4em 9em;
+        padding: 4em 4em 4em 4em;
         /* top: 5rem; */
         flex-direction: row;
         background-color: #fff;
@@ -252,7 +252,7 @@ img{
         display: block;
         cursor: pointer;
         z-index: 999;
-        margin-left: 3em;
+        margin-left: 2em;
         margin-right: 0;
 
     }
