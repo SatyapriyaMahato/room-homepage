@@ -130,6 +130,7 @@ img{
 .section-hero{
     padding-top: 0;
 
+
 }
 .hero-top{
     width: 100%;
@@ -276,7 +277,13 @@ img{
     .hero-left{
         width: 100%;
     }
+    .section-hero-text{
+        padding: 6em 3em 6em 3em;
+    }
     .hero-arrow-btn{
+        justify-content: end;
+        width: 20%;
+        height: 20%;
         right: 0;
     }
     .hero-right{
@@ -287,6 +294,9 @@ img{
     }
     .div1, .div2, .div3{
         width: 100%;
+    }
+    .div2{
+        padding: 5em 3em;
     }
   
 
