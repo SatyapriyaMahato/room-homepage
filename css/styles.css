@@ -170,7 +170,7 @@ img{
 .hero-arrow-btn{
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: -149px;
     height: 80px;
     display: inline-flex;
 }
