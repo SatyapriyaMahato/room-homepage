@@ -170,6 +170,7 @@ img{
 .hero-arrow-btn{
     position: absolute;
     bottom: 0;
+    right: 0;
     height: 80px;
     display: inline-flex;
 }
@@ -178,7 +179,8 @@ img{
     margin: 0;
     background-color: #101010;
     border: 0;
-    cursor: pointer;   
+    cursor: pointer;  
+    transition-duration: 0.4s; 
 }
 
 .btn:hover{
