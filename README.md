@@ -27,7 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![]()
+![](./screenshots/desktop.jpg)
+![](./screenshots/mobile.jpg)
 
 ### Links
 
@@ -37,16 +38,21 @@ Users should be able to:
 ## My process
 
 ### Built with
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
 
 
 ### What I learned
-
+I learned how to workl with javascript functions, conditional statements and loops- 
 
 ### Continued development
-
+I will exploring more on javascript and get a good grip on it.
 
 ### Useful resources
-
+- [w3 schools](https://www.w3schools.com/) - This helped me in uinderstanding the 2s6arrow  functions and their syntax.
+- [w3 validator](https://validator.w3.org/) - I used this validate my html code to check for any error of deprications.
 
 ## Author
 
