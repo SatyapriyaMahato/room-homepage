@@ -45,7 +45,7 @@ Users should be able to:
 
 
 ### What I learned
-I learned how to workl with javascript functions, conditional statements and loops- 
+I learned how to work with javascript functions, conditional statements and loops- 
 
 ### Continued development
 I will exploring more on javascript and get a good grip on it.
