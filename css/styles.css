@@ -255,6 +255,7 @@ img{
         z-index: 999;
         margin-left: 2em;
         margin-right: 0;
+        position: fixed;
 
     }
     .hamburger.active .bar:nth-child(2) {
